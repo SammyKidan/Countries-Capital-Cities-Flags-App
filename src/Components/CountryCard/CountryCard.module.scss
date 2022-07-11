@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 1em;
+}
+
+li {
+    border: 1px solid lightgrey;
+    width: 200px;
+    height: 200px;
+    margin: 10px 6px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    padding: 0.5em;
+    position: relative;
+    height: 90px;
+
+}
